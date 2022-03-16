@@ -5,7 +5,6 @@ import { Alert,Button } from "react-bootstrap";
 
 export default function AlertDismissible(props) {
     const [show, setShow] = useState(true);
-    console.log("props waleed  : ",props)
     return (
         props.open&&
       <>
